@@ -106,6 +106,7 @@ function Cart() {
               <div className='cart__item-info'>
                 <h3>{item.title}</h3>
               </div>
+
               <div className='cart__item-count'>
                 <div
                   onClick={() => decrementItemQuantity(item.id)}
